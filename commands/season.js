@@ -35,6 +35,7 @@ module.exports = {
         "5",
         "6",
         "7",
+        "8",
       ];
 
       if (seasons.indexOf(season) == -1)
@@ -67,7 +68,7 @@ module.exports = {
         }
 
         var result = results[0];
-        var currentTimestamp = DateTime.local().toFormat("ooo");
+        var currentTimestamp = DateTime.local().toFormat("ooo") * 2;
         var startDate = DateTime.fromISO(result.startDate);
         var startFormat = DateTime.fromISO(startDate).toFormat(
           "cccc, LLLL d, y"
@@ -110,7 +111,7 @@ module.exports = {
             result.link
           )
           .setThumbnail(
-            `https://sdcore.dev/cdn/ApexStats/SeasonIcons/Season_${result.id}.png?q=${currentTimestamp}`
+            `https://cdn.apexstats.dev/SeasonIcons/Season_${result.id}.png?q=${currentTimestamp}`
           )
           .setDescription(result.description)
           .addField(
@@ -127,7 +128,7 @@ module.exports = {
           .addField("Legend Debut", result.legend, true)
           .addField("Weapon Debut", result.weapon, true)
           .setImage(
-            `https://sdcore.dev/cdn/ApexStats/Maps/SeasonList/${compress(
+            `https://cdn.apexstats.dev/Maps/SeasonList/${compress(
               result.map
             )}.png?q=${currentTimestamp}`
           )

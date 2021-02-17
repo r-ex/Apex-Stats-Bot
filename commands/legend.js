@@ -92,7 +92,7 @@ module.exports = {
             true
           )
           .setImage(
-            `https://sdcore.dev/cdn/ApexStats/LegendBanners/${results[0].name}.png?q=${currentTimestamp}`
+            `https://cdn.apexstats.dev/LegendBanners/${results[0].name}.png?q=${currentTimestamp}`
           );
 
         message.channel.send(legendEmbed);

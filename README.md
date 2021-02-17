@@ -1,5 +1,11 @@
 ![CI/CD to Vultr](https://github.com/SDCore/ApexStats/workflows/CI/CD%20to%20Vultr/badge.svg) ![Discord](https://img.shields.io/discord/664717517666910220?label=Support%20Server)
 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 **WHILE THIS BOT IS OPEN SOURCE, THERE CURRENTLY WILL BE NO SUPPORT FOR SELF-HOSTING THE BOT.**
 
 # Apex Stats Bot
@@ -30,12 +36,13 @@ The bot currently has the following features:
 
 ### Stats
 
-![Stats Preview 1](https://sdcore.dev/i/tchntbph.png)
-![Stats Preview 2](https://sdcore.dev/i/h0u0sz1o.png)
+![Stats Preview 1](https://sdcore.dev/i/3zqqmgnk.png)
 
-\*Account Kill/Damage/Win Stats available for PC accounts only. Currently Equipped Trackers are available for all platforms.
+\*Will only show data for the 3 selected trackers on the currently selected legend.
 
 ### Map Rotation
+
+You can also do `>>map #` where # is the amount of future rotations you'd like to see.
 
 ![Map Rotation Preview](https://sdcore.dev/i/0clab374.png)
 
@@ -72,3 +79,24 @@ Lots of help with some more obscure data from Rexx <3
 If you find an error or need help with something else, [join the support server](https://discord.gg/eH8VxssFW6)!
 
 You can find the somewhat-but-not-really frequently update Trello [here](https://trello.com/b/PGSmA4op/apex-legends-discord-stats-bot).
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://sdcore.github.io"><img src="https://avatars.githubusercontent.com/u/5140203?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michael Voell</b></sub></a><br /><a href="https://github.com/SDCore/Apex-Stats-Bot/commits?author=SDCore" title="Code">💻</a> <a href="#data-SDCore" title="Data">🔣</a> <a href="#design-SDCore" title="Design">🎨</a></td>
+    <td align="center"><a href="http://stats.alphaleagues.com"><img src="https://avatars.githubusercontent.com/u/67599507?v=4?s=100" width="100px;" alt=""/><br /><sub><b>r-ex</b></sub></a><br /><a href="#data-r-ex" title="Data">🔣</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

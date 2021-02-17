@@ -110,7 +110,7 @@ client.once("ready", () => {
               realDateMath
             )}**`
           )
-          .setImage(`https://sdcore.dev/cdn/ApexStats/Events/${event.imageURL}`)
+          .setImage(`https://cdn.apexstats.dev/Events/${event.imageURL}`)
           .setTimestamp();
 
         const noEventEmbed = new Discord.MessageEmbed()
@@ -118,7 +118,7 @@ client.once("ready", () => {
           .setDescription(
             "There is no currently active event. Check back another time!"
           )
-          .setImage("https://sdcore.dev/cdn/ApexStats/Events/NoEvent.png")
+          .setImage("https://cdn.apexstats.dev/Events/NoEvent.png")
           .setTimestamp();
 
         const preEventEmbed = new Discord.MessageEmbed()
@@ -146,11 +146,11 @@ client.once("ready", () => {
           )
           .addField(
             "Countdown",
-            `The **${event.eventName} Event** will start **${time(
+            `The **${event.eventName} Event** will start in **${time(
               timeTillDate
-            )}**.`
+            )}**`
           )
-          .setImage(`https://sdcore.dev/cdn/ApexStats/Events/${event.imageURL}`)
+          .setImage(`https://cdn.apexstats.dev/Events/${event.imageURL}`)
           .setTimestamp();
 
         const guild = client.guilds.cache.get(config.autoUpdate.guildID);
